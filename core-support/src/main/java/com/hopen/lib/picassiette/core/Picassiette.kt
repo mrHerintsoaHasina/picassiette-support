@@ -4,7 +4,7 @@ import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.os.Environment
-import androidx.collection.LruCache
+import android.support.v4.util.LruCache
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.jakewharton.disklrucache.DiskLruCache

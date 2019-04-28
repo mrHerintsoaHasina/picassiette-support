@@ -27,19 +27,19 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
-    implementation "androidx.legacy:legacy-support-v4:$legacy_support_v4_version"
-    implementation "androidx.appcompat:appcompat:$appcompat_version"
-    implementation "androidx.annotation:annotation:$android_annotation_version"
+    implementation "com.android.support:support-v4:$appcompat_version"
+    implementation "com.android.support:appcompat-v7:$appcompat_version"
+    implementation "com.android.support:support-annotations:$appcompat_version"
 
-    implementation group: 'com.google.android.material', name: 'material', version: "$material_version"
+    implementation "com.android.support:design:$appcompat_version"
 
     implementation "com.jakewharton.timber:timber:$timber_version"
 
     implementation "com.squareup.okhttp3:okhttp:$okhttp_version"
 
-    implementation project(':core')
+    implementation project(':core-support')
 
     testImplementation "junit:junit:$junit_version"
-    androidTestImplementation "androidx.test:runner:$test_runner_version"
-    androidTestImplementation "androidx.test.espresso:espresso-core:$test_espresso_core_version"
+    androidTestImplementation "com.android.support.test:runner:$test_runner_version"
+    androidTestImplementation "com.android.support.test.espresso:espresso-core:$test_espresso_core_version"
 }
