@@ -2,7 +2,7 @@
 A light-weight library to make asynchronous task launched from a RecyclerView (or ListView). It sounds like Picasso or Glide. The difference with Picassiette, it can support custom types of data (not only Bitmap). If you choose Bitmap as the fetched data, stay with Picasso or Glide as they are more advanced library. But if you want support also custom data in your RecyclerView's item view, use Picassiette.
 
 ## Under the hood
-* Androidx library
+* Androidx library or android support
 * Kotlin
 * Coroutines
 * Android LruCache
