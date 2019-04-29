@@ -10,9 +10,16 @@ A light-weight library to make asynchronous task launched from a RecyclerView (o
 
 ## Installation
 Add to your app `build.gradle` :
+* Project with androidx
 ````
 dependencies {
     implementation 'com.hopen.lib:picassiette-core:1.0.0'
+}
+````
+* Project with android support
+````
+dependencies {
+    implementation 'com.hopen.lib:picassiette-core-support:1.0.0'
 }
 ````
 
